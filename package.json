@@ -1,0 +1,14 @@
+{
+  "name": "aca-practice-problems",
+  "version": "1.0.0",
+  "description": "An evolving repository of practice problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
