@@ -1,4 +1,4 @@
-var neargestLarger = require ('../src/01_nearest_larger');
+var nearestLarger = require ('../src/01_nearest_larger');
 
  // Write a function, `nearestLarger(arr, i)` which takes an array and an
  // index.  The function should return another index, `j`
