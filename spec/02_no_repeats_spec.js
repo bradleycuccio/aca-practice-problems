@@ -9,15 +9,15 @@ var noRepeats = require ('../src/02_no_repeats');
 
 describe("noRepeats", function() {
   it("should return a no repeat year", function() {
-    expect(noRepeats(1234, 1234).toEqual([1234]);
+    expect(noRepeats(1234, 1234)).toEqual([1234]);
   });
 
   it("should not return a repeat year", function() {
-    expect(noRepeats(1123, 1123).toEqual([]);
+    expect(noRepeats(1123, 1123)).toEqual([]);
   });
 
   it("should return only those years that have no repeated digits", function() {
-    expect(noRepeats(1980, 1987).toEqual([
+    expect(noRepeats(1980, 1987)).toEqual([
       1980,
       1982,
       1983,
