@@ -6,7 +6,7 @@
 // at any time we find a larger number than the given value we check to see if
 // the distance is smaller than the last larger number, if it is we update our variables.
 
-// As you may have guessed, this is not the most optomized way to solve this problem.
+// As you may have guessed, this is not the most optimized way to solve this problem.
 // If we have an array of 1,000,000 numbers we are checking each number
 // to find the closest larger number.
 
@@ -32,15 +32,15 @@ function nearestLarger(arr, i) {
   return largerIndex;
 }
 
-// 2. A more optomized solution
+// 2. A more optimized solution
 //
 // This solution we start from the index and work out from there, this way as
 // soon as we find a larger number we are able to return.
 //
-// In a worst case scenerio our index is right in the middle of the array and
+// In a worst case scenario our index is right in the middle of the array and
 // the largest number is at the very end.
 //
-// In a best case, the larger number is immediaterly to the left of our
+// In a best case, the larger number is immediately to the left of our
 // starting index in which case our loop runs only one time.
 function nearestLarger(arr, i) {
   var diff = 1;
